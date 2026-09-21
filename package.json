@@ -1,0 +1,10 @@
+{
+  "name": "koelncity-rp-bot-panel",
+  "version": "2.0.0",
+  "private": true,
+  "description": "KölnCity RP Discord Bot mit Webseiten-API für Ankündigungen",
+  "main": "index.js",
+  "scripts": {"start": "node index.js", "check": "node --check index.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"@discordjs/voice": "^0.19.2", "discord.js": "^14.27.0", "play-dl": "^1.9.7", "youtube-dl-exec": "^3.1.15"}
+}
